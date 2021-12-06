@@ -90,7 +90,6 @@ data = read_input()
 numbers = parse_nums(data[0])
 
 grid, cache = parse_grid(data[2:])
-grid_ = grid
 
 for number in numbers:
     grid, result = mark_numbers(grid, cache, number)
